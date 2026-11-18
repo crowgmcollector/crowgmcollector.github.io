@@ -1,5 +1,26 @@
 [
   {
+    "slug": "gta-6",
+    "titulo": "GTA 6, O HYPE DO MOMENTO",
+    "tipo": "shopee",
+    "url": "https://s.shopee.com.br/2BGYXgqc4Q",
+    "destaque": true
+  },
+  {
+    "slug": "quadro-gta",
+    "titulo": "QUADRO DO GTA PRA PAREDE",
+    "tipo": "shopee",
+    "url": "https://s.shopee.com.br/8pnSTyQQS0",
+    "destaque": false
+  },
+  {
+    "slug": "pokemon-legends-z-a",
+    "titulo": "POKÉMON LEGENDS: Z-A",
+    "tipo": "shopee",
+    "url": "https://s.shopee.com.br/1qdi98LT5f",
+    "destaque": false
+  },
+  {
     "slug": "zelda-ocarina-of-time-switch-2",
     "titulo": "O AMIIBO DO LINK TÁ NA VITRINE DO CROW.",
     "tipo": "shopee",
