@@ -7,6 +7,55 @@
     "destaque": true
   },
   {
+    "slug": "venda-atelier-ryza-1",
+    "titulo": "ATELIER RYZA (SWITCH)",
+    "tipo": "venda",
+    "url": "https://sp.olx.com.br/sao-paulo-e-regiao/games/jogos-de-video-game/atelier-ryza-ever-darkness-and-the-secret-hideout-switch-1466337215",
+    "destaque": false
+  },
+  {
+    "slug": "venda-atelier-ryza-2",
+    "titulo": "ATELIER RYZA 2 (SWITCH)",
+    "tipo": "venda",
+    "url": "https://sp.olx.com.br/sao-paulo-e-regiao/games/jogos-de-video-game/atelier-ryza-2-1466341223",
+    "destaque": false
+  },
+  {
+    "slug": "venda-atelier-ryza-3",
+    "titulo": "ATELIER RYZA 3 (SWITCH)",
+    "tipo": "venda",
+    "url": "https://sp.olx.com.br/sao-paulo-e-regiao/games/jogos-de-video-game/atelier-ryza-3-alchemist-of-the-end-and-the-secret-key-1466338141",
+    "destaque": false
+  },
+  {
+    "slug": "venda-pokemon-sword-expansion-pass",
+    "titulo": "POKÉMON SWORD + EXPANSION PASS",
+    "tipo": "venda",
+    "url": "https://sp.olx.com.br/sao-paulo-e-regiao/games/jogos-de-video-game/pokemon-sword-expansion-pass-1487017604",
+    "destaque": false
+  },
+  {
+    "slug": "venda-fullmetal-alchemist-dual-sympathy",
+    "titulo": "FULLMETAL ALCHEMIST DUAL SYMPATHY (DS)",
+    "tipo": "venda",
+    "url": "https://sp.olx.com.br/sao-paulo-e-regiao/games/jogos-de-video-game/fullmetal-alchemist-dual-sympathy-1539766730",
+    "destaque": false
+  },
+  {
+    "slug": "venda-pokemon-alpha-sapphire",
+    "titulo": "POKÉMON ALPHA SAPPHIRE (3DS, LACRADO)",
+    "tipo": "venda",
+    "url": "https://sp.olx.com.br/sao-paulo-e-regiao/games/jogos-de-video-game/pokemon-alpha-sapphire-1537345789",
+    "destaque": false
+  },
+  {
+    "slug": "venda-pokemon-omega-ruby",
+    "titulo": "POKÉMON OMEGA RUBY (3DS, LACRADO)",
+    "tipo": "venda",
+    "url": "https://sp.olx.com.br/sao-paulo-e-regiao/games/jogos-de-video-game/pokemon-omega-ruby-1537345695",
+    "destaque": false
+  },
+  {
     "slug": "quadro-gta",
     "titulo": "QUADRO DO GTA PRA PAREDE",
     "tipo": "shopee",
@@ -19,11 +68,5 @@
     "tipo": "shopee",
     "url": "https://s.shopee.com.br/1qdi98LT5f",
     "destaque": false
-  },
-  {
-    "slug": "zelda-ocarina-of-time-switch-2",
-    "titulo": "O AMIIBO DO LINK TÁ NA VITRINE DO CROW.",
-    "tipo": "shopee",
-    "url": "https://s.shopee.com.br/gRkEB77nB"
   }
 ]
