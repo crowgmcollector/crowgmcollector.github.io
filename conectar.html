@@ -1,0 +1,13 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Conectar · Crow News</title>
+<style>body{margin:0;background:#14141C;color:#eee;font:16px/1.6 Inter,system-ui,sans-serif}main{max-width:720px;margin:0 auto;padding:32px 16px}h1{color:#F2C14E}input{width:100%;box-sizing:border-box;font-size:18px;padding:10px}button{font-size:18px;padding:10px 16px;margin-top:12px}</style></head>
+<body><main><h1>Conectar a conta do TikTok</h1>
+<p>Cole o <b>Client key</b> do Sandbox e toque em Conectar. Ele fica só no seu navegador.</p>
+<input id="key" autocomplete="off" placeholder="Client key"><br><button id="go">Conectar</button>
+<script>
+document.getElementById("go").onclick=function(){
+  var k=document.getElementById("key").value.trim(); if(!k) return;
+  var q=new URLSearchParams({client_key:k,scope:"user.info.basic,video.upload",response_type:"code",
+    redirect_uri:"https://crowgmcollector.github.io/callback.html",state:Math.random().toString(36).slice(2)});
+  location.href="https://www.tiktok.com/v2/auth/authorize/?"+q.toString();
+};
+</script></main></body></html>
