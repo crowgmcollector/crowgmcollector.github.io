@@ -1,3 +1,10 @@
 <!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Conexão · Crow News</title>
 <style>body{margin:0;background:#14141C;color:#eee;font:16px/1.6 Inter,system-ui,sans-serif}main{max-width:720px;margin:0 auto;padding:32px 16px}h1{color:#F2C14E}a{color:#F2C14E}</style></head>
-<body><main><h1>Conexão com o TikTok</h1><p>Recebido. Pode fechar esta página e voltar para a conversa.</p><p><a href="index.html">Início</a> · <a href="privacidade.html">Privacidade</a> · <a href="termos.html">Termos</a></p></main></body></html>
+<body><main><h1>Conexão com o TikTok</h1><p id="msg">Lendo a resposta do TikTok…</p><p><code id="code" style="font-size:20px;word-break:break-all;color:#F2C14E"></code></p><p><button id="copy" hidden style="font-size:18px;padding:10px 16px">Copiar código</button></p>
+<script>
+var q=new URLSearchParams(location.search),c=q.get("code"),e=q.get("error");
+var msg=document.getElementById("msg");
+if(c){msg.textContent="Autorizado! Copie o código abaixo e mande na conversa. Ele vale só por alguns minutos.";document.getElementById("code").textContent=c;var b=document.getElementById("copy");b.hidden=false;b.onclick=function(){navigator.clipboard.writeText(c);b.textContent="Copiado!";};}
+else if(e){msg.textContent="O TikTok não autorizou: "+e+". Tente de novo pelo link.";}
+else{msg.textContent="Nenhum código recebido. Abra esta página pelo link de autorização.";}
+</script><p><a href="index.html">Início</a> · <a href="privacidade.html">Privacidade</a> · <a href="termos.html">Termos</a></p></main></body></html>
